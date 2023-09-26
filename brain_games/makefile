@@ -21,6 +21,15 @@ package-force-reinstall:
 
 
 lint:
-	poetry run flake8 brain_games
+	poetry run flake8  brain_games/scripts
 
+#selfcheck:
+#	poetry check
 
+#check:
+#	selfcheck test lint
+
+#build: check
+#	poetry build
+
+#.PHONY: install test lint selfcheck check build
